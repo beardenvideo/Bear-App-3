@@ -27,6 +27,10 @@
 		04E19A30223F0ECE008C5859 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E19A24223F0ECE008C5859 /* 40.png */; };
 		04E19A31223F0ECE008C5859 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E19A25223F0ECE008C5859 /* 87.png */; };
 		04E19A33223F1131008C5859 /* ViewController Google Slides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E19A32223F1131008C5859 /* ViewController Google Slides.swift */; };
+		04E8BBA3224C2272006E06B0 /* ViewController LMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BBA2224C2272006E06B0 /* ViewController LMC.swift */; };
+		04E8BBA5224C228B006E06B0 /* ViewController Athletics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BBA4224C228B006E06B0 /* ViewController Athletics.swift */; };
+		04E8BBA7224C22A5006E06B0 /* ViewController Youtube Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8BBA6224C22A5006E06B0 /* ViewController Youtube Page.swift */; };
+		04E8BBA9224C388D006E06B0 /* bears-1504623291mV5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E8BBA8224C388C006E06B0 /* bears-1504623291mV5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		04E19A24223F0ECE008C5859 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
 		04E19A25223F0ECE008C5859 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 		04E19A32223F1131008C5859 /* ViewController Google Slides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController Google Slides.swift"; sourceTree = "<group>"; };
+		04E8BBA2224C2272006E06B0 /* ViewController LMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController LMC.swift"; sourceTree = "<group>"; };
+		04E8BBA4224C228B006E06B0 /* ViewController Athletics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController Athletics.swift"; sourceTree = "<group>"; };
+		04E8BBA6224C22A5006E06B0 /* ViewController Youtube Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController Youtube Page.swift"; sourceTree = "<group>"; };
+		04E8BBA8224C388C006E06B0 /* bears-1504623291mV5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bears-1504623291mV5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 				04C8DF06223A7B1A00409E50 /* Bear App 3Tests */,
 				04C8DF11223A7B1A00409E50 /* Bear App 3UITests */,
 				04C8DEF0223A7B1200409E50 /* Products */,
+				04E8BBA8224C388C006E06B0 /* bears-1504623291mV5.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +136,9 @@
 				04C8DEF4223A7B1200409E50 /* ViewController.swift */,
 				04C8DEF6223A7B1200409E50 /* Main.storyboard */,
 				04E19A32223F1131008C5859 /* ViewController Google Slides.swift */,
+				04E8BBA2224C2272006E06B0 /* ViewController LMC.swift */,
+				04E8BBA4224C228B006E06B0 /* ViewController Athletics.swift */,
+				04E8BBA6224C22A5006E06B0 /* ViewController Youtube Page.swift */,
 				04C8DEF9223A7B1A00409E50 /* Assets.xcassets */,
 				04E19A19223F0ECE008C5859 /* AppIcon.appiconset */,
 				04C8DEFB223A7B1A00409E50 /* LaunchScreen.storyboard */,
@@ -285,6 +297,7 @@
 				04E19A30223F0ECE008C5859 /* 40.png in Resources */,
 				04C8DEFD223A7B1A00409E50 /* LaunchScreen.storyboard in Resources */,
 				04E19A2E223F0ECE008C5859 /* 57.png in Resources */,
+				04E8BBA9224C388D006E06B0 /* bears-1504623291mV5.jpg in Resources */,
 				04E19A2D223F0ECE008C5859 /* 180.png in Resources */,
 				04E19A2C223F0ECE008C5859 /* Contents.json in Resources */,
 				04C8DEFA223A7B1A00409E50 /* Assets.xcassets in Resources */,
@@ -315,8 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E8BBA5224C228B006E06B0 /* ViewController Athletics.swift in Sources */,
+				04E8BBA7224C22A5006E06B0 /* ViewController Youtube Page.swift in Sources */,
 				04E19A33223F1131008C5859 /* ViewController Google Slides.swift in Sources */,
 				04C8DEF5223A7B1200409E50 /* ViewController.swift in Sources */,
+				04E8BBA3224C2272006E06B0 /* ViewController LMC.swift in Sources */,
 				04C8DEF3223A7B1200409E50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
